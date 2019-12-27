@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42fff3fd-653f-47bc-ba6d-7c49a3202e4e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VXl41nFWq1WCZORblugmaS4wUM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected="JUnit.PlayersPOJO.getPlayers">
+    <configuration name="APITests.getAllTeamsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apiWeek2Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="APITests" />
+      <option name="METHOD_NAME" value="getAllTeamsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayersPOJO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apiWeek2Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayersPOJO" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayersPOJO.getPlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apiWeek2Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayersPOJO" />
+      <option name="METHOD_NAME" value="getPlayers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamsPOJO.getTeams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apiWeek2Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TeamsPOJO" />
+      <option name="METHOD_NAME" value="getTeams" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PlayersPOJO.getPlayers" />
+        <item itemvalue="JUnit.PlayersPOJO" />
+        <item itemvalue="JUnit.APITests.getAllTeamsTest" />
+        <item itemvalue="JUnit.TeamsPOJO.getTeams" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42fff3fd-653f-47bc-ba6d-7c49a3202e4e" name="Default Changelist" comment="" />
+      <created>1577407125536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577407125536</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1577412794383">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577412794383" />
+    <state x="533" y="159" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1577409270558" />
+    <state x="318" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577409535920">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="318" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.826@0.23.1440.826" timestamp="1577409535920" />
+    <state width="1398" height="268" key="GridCell.Tab.0.bottom" timestamp="1577415205336">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577415205336" />
+    <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1577410956663" />
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577409663856" />
+    <state width="1398" height="268" key="GridCell.Tab.0.center" timestamp="1577415205333">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577415205333" />
+    <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1577410956661" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1577409663855" />
+    <state width="1398" height="268" key="GridCell.Tab.0.left" timestamp="1577415205331">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577415205331" />
+    <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1577410956660" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1577409663855" />
+    <state width="1398" height="268" key="GridCell.Tab.0.right" timestamp="1577415205334">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577415205334" />
+    <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1577410956662" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1577409663856" />
+    <state x="229" y="73" key="SettingsEditor" timestamp="1577408157691">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="229" y="73" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1577408157691" />
+  </component>
+</project>
