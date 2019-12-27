@@ -9,7 +9,7 @@
 ##Base path
 - v2/
 
-#Teams path
+#Pojo.TeamPojo.Teams path
 - teams/
 
 #Competitions path
