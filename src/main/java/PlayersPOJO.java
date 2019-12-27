@@ -3,7 +3,9 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.HttpClientBuilder;
+import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;
+import org.junit.Test;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -13,14 +15,14 @@ import java.util.Map;
 
 public class PlayersPOJO {
 
-
-    public static void getPlayers(int option) throws URISyntaxException, IOException {
+    @Test
+    public void getPlayers() throws URISyntaxException, IOException {
 
         HttpClient httpClient = HttpClientBuilder.create().build();
         URIBuilder uriBuilder = new URIBuilder();
         uriBuilder.setScheme("http")
                 .setHost("api.football-data.org")
-                .setPath("v2/teams/66");
+                .setPath("v2/competitions/2000/scorers");
 
 
         HttpGet httpGet = new HttpGet(uriBuilder.build());
@@ -30,52 +32,27 @@ public class PlayersPOJO {
         HttpResponse response = httpClient.execute(httpGet);
         ObjectMapper objectMapper = new ObjectMapper();
 
+        objectMapper.disable(DeserializationConfig.Feature.FAIL_ON_UNKNOWN_PROPERTIES);
 
-        Players players = objectMapper.readValue(response.getEntity().getContent(), Players.class);
+        Scorers scorers = objectMapper.readValue(response.getEntity().getContent(), Scorers.class);
 
-        List<Map<String, Object>> allPlayers = new ArrayList<>();
 
-        List<Map<String, Object>> goalkeepers = new ArrayList<>();
-        List<Map<String, Object>> defenders = new ArrayList<>();
-        List<Map<String, Object>> attackers = new ArrayList<>();
-        List<Map<String, Object>> midfielders = new ArrayList<>();
+        List<Map<String, Object>> scorersListOMaps = new ArrayList<>();
 
-        List<String> goalkeepersList = new ArrayList<>();
-        List<String> attackersList= new ArrayList<>();
+        List<String> listOfScorers = new ArrayList<>();
 
-        for (int i = 0; i < players.getSquad().size();i++){
+        for (int i = 0; i < scorers.getScorers().size(); i++) {
 
-         //   allPlayers.add(players.getSquad().get(i));
+          //  int score = (int) scorers.getScorers().get(i).get("numberOfGoals");&& scorers.getScorers().get(i).get("numberOfGoals").equals(4)
 
-            if(players.getSquad().get(i).get("position").equals("Goalkeeper"))
-                goalkeepers.add(players.getSquad().get(i));
 
-            if(players.getSquad().get(i).get("position").equals("Attacker"))
-                attackers.add(players.getSquad().get(i));
+                listOfScorers.add(scorersListOMaps.get(i).get("scorers").toString());
 
-            if(players.getSquad().get(i).get("position").equals("Defender"))
-                defenders.add(players.getSquad().get(i));
+            }
 
-            if(players.getSquad().get(i).get("position").equals("Midfielder"))
-                midfielders.add(players.getSquad().get(i));
 
-        }
+        System.out.println(listOfScorers);
 
-      //  for(int i = 0; i < goalkeepers.size(); i++)
-           // goalkeepersList.add(goalkeepers.get(i).get("name"));
+    }}
 
-//        switch (option){
-//            case 0:
-//               // return goalkeepersList;
-//            case 1:
-//            case 2:
-//            default:;
-//
-//        }
-//        System.out.println(allPlayers.get(0).get("position"));
-//        System.out.println(allPlayers.get(0).get("name"));
-//
 
-    }
-
-}

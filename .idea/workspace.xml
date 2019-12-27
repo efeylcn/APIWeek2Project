@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42fff3fd-653f-47bc-ba6d-7c49a3202e4e" name="Default Changelist" comment="" />
+    <list default="true" id="42fff3fd-653f-47bc-ba6d-7c49a3202e4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Competitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Scorers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/APITasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APITasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayersPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayersPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TeamsPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TeamsPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/APITasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APITasks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Players.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Players.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PlayersPOJO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PlayersPOJO.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VXl41nFWq1WCZORblugmaS4wUM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -35,11 +49,31 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="JUnit.PlayersPOJO.getPlayers">
-    <configuration name="APITests.getAllTeamsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="APITests.getAllCompetitionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="apiWeek2Project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="APITests" />
-      <option name="METHOD_NAME" value="getAllTeamsTest" />
+      <option name="METHOD_NAME" value="getAllCompetitionsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITests.getAttackerFromEnglandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apiWeek2Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="APITests" />
+      <option name="METHOD_NAME" value="getAttackerFromEnglandTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITests.getSpainCoachTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apiWeek2Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="APITests" />
+      <option name="METHOD_NAME" value="getSpainCoachTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,22 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeamsPOJO.getTeams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="apiWeek2Project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TeamsPOJO" />
-      <option name="METHOD_NAME" value="getTeams" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PlayersPOJO.getPlayers" />
+        <item itemvalue="JUnit.APITests.getAllCompetitionsTest" />
+        <item itemvalue="JUnit.APITests.getSpainCoachTest" />
         <item itemvalue="JUnit.PlayersPOJO" />
-        <item itemvalue="JUnit.APITests.getAllTeamsTest" />
-        <item itemvalue="JUnit.TeamsPOJO.getTeams" />
+        <item itemvalue="JUnit.APITests.getAttackerFromEnglandTest" />
       </list>
     </recent_temporary>
   </component>
@@ -106,45 +131,85 @@
       <option name="presentableId" value="Default" />
       <updated>1577407125536</updated>
     </task>
+    <task id="LOCAL-00001" summary="API3 project">
+      <created>1577415732115</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577415732115</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="API3 project" />
+    <option name="LAST_COMMIT_MESSAGE" value="API3 project" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1577412794383">
+    <state x="320" y="120" key="#Setter_Template" timestamp="1577429391547">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577412794383" />
+    <state x="320" y="120" key="#Setter_Template/0.0.1440.900@0.0.1440.900" timestamp="1577429391546" />
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1577424059988">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1577424059988" />
+    <state x="533" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1577429402567">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577429402567" />
     <state x="533" y="159" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1577409270558" />
     <state x="318" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577409535920">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="318" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.826@0.23.1440.826" timestamp="1577409535920" />
-    <state width="1398" height="268" key="GridCell.Tab.0.bottom" timestamp="1577415205336">
+    <state x="364" y="55" key="CommitChangelistDialog2" timestamp="1577415731782">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577415205336" />
-    <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1577410956663" />
+    <state x="364" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577415731782" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1577422499660">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1577422499660" />
+    <state width="1398" height="243" key="GridCell.Tab.0.bottom" timestamp="1577430125933">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577430125933" />
+    <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1577418620587" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577409663856" />
-    <state width="1398" height="268" key="GridCell.Tab.0.center" timestamp="1577415205333">
+    <state width="1398" height="243" key="GridCell.Tab.0.center" timestamp="1577430125932">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="268" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577415205333" />
-    <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1577410956661" />
+    <state width="1398" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577430125932" />
+    <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1577418620586" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1577409663855" />
-    <state width="1398" height="268" key="GridCell.Tab.0.left" timestamp="1577415205331">
+    <state width="1398" height="243" key="GridCell.Tab.0.left" timestamp="1577430125931">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="268" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577415205331" />
-    <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1577410956660" />
+    <state width="1398" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577430125931" />
+    <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1577418620586" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1577409663855" />
-    <state width="1398" height="268" key="GridCell.Tab.0.right" timestamp="1577415205334">
+    <state width="1398" height="243" key="GridCell.Tab.0.right" timestamp="1577430125933">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="268" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577415205334" />
-    <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1577410956662" />
+    <state width="1398" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577430125933" />
+    <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1577418620587" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1577409663856" />
     <state x="229" y="73" key="SettingsEditor" timestamp="1577408157691">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="229" y="73" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1577408157691" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1577415804208">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1577415804208" />
+    <state x="377" y="73" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577430119719">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="377" y="73" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1577430119719" />
+    <state x="416" y="249" key="git4idea.merge.GitPullDialog" timestamp="1577422408132">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="416" y="249" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1577422408132" />
   </component>
 </project>
